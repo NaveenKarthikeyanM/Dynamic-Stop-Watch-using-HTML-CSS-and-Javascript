@@ -1,0 +1,50 @@
+.container{
+    font-family: Arial, sans-serif;
+    background-color: #142d4c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    margin: 0;
+}
+
+.stopwatch-container {
+    background-color: #385170;
+    width: 80%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    color: #ecf0f1;
+}
+
+#display {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #e74c3c;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #c0392b;
+}
+
+#laps {
+    text-align: center;
+    margin-top: 20px;
+}
